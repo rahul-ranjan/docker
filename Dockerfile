@@ -34,6 +34,6 @@ RUN chown -R debian-tor:debian-tor /var/db/tor
 ADD start.sh /
 RUN chmod +x /start.sh
 
-EXPOSE 9100
+EXPOSE 9101
 
 CMD ["./start.sh"]
